@@ -1,0 +1,293 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/700f9cc419.js" crossorigin="anonymous"></script>
+    <link rel="icon" type="image/png" href=""/>
+    <title>BOX CLUB</title>
+    <style>
+      body{
+        background-color: #010101;
+        color: white;
+        font-family: 'Fira Sans';
+      }
+      .top{
+        display: flex;
+        justify-content: space-between;
+        
+      }
+      .top li{
+        list-style: none;
+        margin-right: 15px;
+      }
+      .top ul{
+        display: flex;
+        align-items: baseline;
+      }
+      #start{
+        background-color: black;
+        border: white 3px solid;
+        color: white;
+        border-radius: 50px;
+        padding: 5px 20px;
+      }
+      #start:hover{
+        background-color: #ecc546;
+      }
+      #join{
+        background-color: #ecc546;
+        border: white 1px solid;
+        color: black;
+        border-radius: 50px;
+        padding: 5px 20px;
+      }
+      #join:hover{
+        background-color: #010101;
+        color: white;
+      }
+      @media only screen and (max-width: 1000px) {
+        .gpbut{
+           display: flex;
+           flex-wrap: wrap;
+           flex-flow: column;   
+        }
+        }
+
+        .head{
+        background-image: url("ax/boxing.jpg");
+        background-color: #cccccc;
+        height: 550px;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        padding: 15px;
+        }
+        .head2{
+          display: flex;
+          justify-content: space-around;
+        }
+
+        @media only screen and (max-width: 1000px) {
+        .head2{
+           display: flex;
+           flex-wrap: wrap;
+           flex-flow: column;   
+        }
+        }
+
+        .matn2{
+          margin-top: 11%;
+        }
+
+        .matn p{
+          color: #b9b9b9;
+        }
+        a{
+          text-decoration: none;
+          color: white;
+        }
+        a:hover{
+          color: #ecc546;
+        }
+        .head3{
+          margin: auto;
+          width: 98%;
+        }
+        .head3 img{
+          filter: grayscale(100%);
+        }
+        .head3 .card-text{
+          color: #ecc546;
+          font-size: 1.5rem;
+          text-align: center;
+          top: 50%;
+          font-weight: 900;
+        }
+        .head3 .card{
+          background-color: #121212;
+        }
+        .head4{
+          margin: auto;
+          width: 98%;
+        }
+        .head4 .card{
+          background-color: #121212;
+        }
+        .head4 .card-img{
+          filter: grayscale(100%);
+        }
+
+        ::-webkit-scrollbar {
+            width: 12px;
+            background-color: #000000;
+        }
+ 
+        /* قسمت ثابت */
+        ::-webkit-scrollbar-track {
+            box-shadow: inset 0px -1px 13px #000000;
+            border-radius: 10px;
+        }
+ 
+        /* قسمت متحرک */
+        ::-webkit-scrollbar-thumb {
+            background: #ecc546;
+            border-radius: 10px;
+        }
+        .head4 #matn{
+          display: flex;
+          justify-content: space-between;
+          
+        }
+
+        .foot{
+          display: flex;
+          justify-content: space-around;
+          background-color: #181818;
+          padding: 22px 1px ;
+        }
+
+
+    
+     
+    </style>
+</head>
+<body>
+ <div class="top">
+   <ul>
+    <h3 style="margin-right: 30px;">logo</h3>
+    <li><a href="">Services</a></li>
+    <li><a href="">Contact</a></li>
+    <li><a href="">Community</a></li>
+  </ul>
+  <div class="gpbut">
+    <button id="start">Join The Community</button>
+    <button id="join">Get Start</button>
+  </div>
+ </div>
+ <br><br>
+ <div class="head">
+  <div class="matn">
+    <h1>Lorem ipsum dolor sit.</h1>
+    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptatibus illum accusantium veniam quod dicta libero. Lorem ipsum dolor sit amet consectetur adipisicing elit. <br> Voluptates temporibus mollitia modi natus delectus ratione aliquid cumque exercitationem dolorum id? </p>
+  </div>
+ </div>
+ <br><br><br><hr>
+ <div class="head2">
+  <img src="ax/fight.png" alt="">
+  <div class="matn2">
+    <h3>Lorem, ipsum dolor.</h3>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi quod porro necessitatibus, maiores saepe qui consectetur blanditiis id cum, illo eveniet suscipit deleniti vel provident!</p>
+    <h2>Lorem ipsum dolor sit?</h2>
+    <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Aspernatur nemo accusantium, provident reprehenderit perferendis repudiandae similique cumque doloremque! Non fuga corrupti aspernatur, tenetur similique esse. Sapiente aperiam tempora voluptates ducimus.</p>
+  </div>
+ </div>
+<br><hr><br>
+<h1>Lorem ipsum dolor sit amet.</h1><br><br>
+<div class="row head3">
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/kidf.png" alt="" class="card-img">
+        <h4 class="card-text card-img-overlay">KIDS</h4>
+      </div>
+    </div>  
+  </div>
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/womanf.png" alt="" class="card-img">
+        <h4 class="card-text card-img-overlay">WOMAN</h4>
+      </div>
+    </div>  
+  </div>
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/youngf.png" alt="" class="card-img">
+        <h4 class="card-text card-img-overlay">YOUNG</h4>
+      </div>
+    </div>  
+  </div> 
+</div>
+</div>
+
+<br><br><hr>
+<h1>shop</h1>
+<div class="row head4">
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/gloves.png" alt="" class="card-img">
+        <h2 class="card-text">BOX GLOVES</h2>
+        <div id="matn">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="card-text" style="font-size: 24px; color: #ecc546;">50$</p>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/short.png" alt="" class="card-img">
+        <h2 class="card-text">BOX SHORT</h2>
+        <div id="matn">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="card-text" style="font-size: 24px; color: #ecc546;">50$</p>
+        </div>
+      </div>
+    </div>  
+  </div>
+  <div class="col-sm-12 col-md-4 col-xl-4">
+    <div class="card">
+      <div class="card-body">
+        <img src="ax/shoes.png" alt="" class="card-img">
+        <h2 class="card-text">BOX SHOES</h2>
+        <div id="matn">
+          <p class="card-text">Lorem ipsum dolor sit amet consectetur.</p>
+        <p class="card-text" style="font-size: 24px; color: #ecc546;">50$</p>
+        </div>
+      </div>
+    </div>  
+  </div> 
+</div>
+</div>
+<br><hr><br>
+<div class="foot">
+  <ul>
+    <li>1</li>
+    <li>2</li>
+    <li>3</li>
+    <li>4</li>
+    <li>5</li>
+  </ul>
+
+  <ul>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+    <li>Lorem ipsum dolor sit amet consectetur.</li>
+  </ul>
+  <ul>
+    <li>a</li>
+    <li>b</li>
+    <li>c</li>
+  </ul>
+</div>
+ 
+
+
+</body>
+<script src="js/bootstrap.bundle.min.js"></script>
+<script src="test.js"></script>
+<script> 
+</script>   
+</body>
+</html>
